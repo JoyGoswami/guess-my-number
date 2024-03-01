@@ -35,7 +35,6 @@ const handleCheck = () => {
     //when there is no input
     if(!guess){
         displayMessage("⛔️ No number!")
-        console.log(guess, typeof guess)
     } 
     //when the guess is correct
     else if(guess === secretNumber){
